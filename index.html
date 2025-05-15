@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chào mừng đến với trang của tôi!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Cá Nhân của Kien</title>
+  <!-- Google fonts để tạo cảm giác hiện đại, trung tính -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, welcome to my website!</h1>
-    <p>Đây là website tĩnh được host miễn phí trên GitHub Pages.</p>
+  <!-- Header với thanh menu -->
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo"><a href="#">Kien</a></h1>
+        <ul class="nav-links">
+          <li><a href="#home">Trang Chủ</a></li>
+          <li><a href="#about">Giới Thiệu</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Chào mừng đến với trang cá nhân của tôi</h2>
+      <p>Tôi là Kien – đam mê thiết kế và chia sẻ kiến thức về công nghệ, cuộc sống và những trải nghiệm cá nhân.</p>
+      <a href="#blog" class="btn">Xem Blog</a>
+    </div>
+  </section>
+  
+  <!-- Giới thiệu -->
+  <section id="about">
+    <div class="container">
+      <h2>Giới Thiệu</h2>
+      <p>Tôi là Kien. Đây là nơi tôi chia sẻ các dự án, bài viết và suy nghĩ của mình. Giao diện tối giản với tông màu trung tính giúp nội dung nổi bật và dễ đọc.</p>
+    </div>
+  </section>
+  
+  <!-- Blog Section -->
+  <section id="blog">
+    <div class="container">
+      <h2>Blog</h2>
+      <div class="posts">
+        <article class="post">
+          <h3><a href="#">Tiêu đề bài viết 1</a></h3>
+          <p>Đoạn trích ngắn giới thiệu nội dung bài viết để thu hút người đọc.</p>
+          <a href="#" class="read-more">Đọc thêm</a>
+        </article>
+        <article class="post">
+          <h3><a href="#">Tiêu đề bài viết 2</a></h3>
+          <p>Một đoạn trích giới thiệu bài viết khác với nội dung hấp dẫn và đầy đủ ý nghĩa.</p>
+          <a href="#" class="read-more">Đọc thêm</a>
+        </article>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Liên hệ -->
+  <section id="contact">
+    <div class="container">
+      <h2>Liên Hệ</h2>
+      <p>Nếu có bất kỳ câu hỏi hay muốn trao đổi, hãy email về <a href="mailto:kien@example.com">kien@example.com</a></p>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kien. All rights reserved.</p>
+    </div>
+  </footer>
+  
 </body>
 </html>
