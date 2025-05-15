@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Bài Đăng Mới Của Tôi"
-date: 2025-05-20 10:00:00 +0700
+date: 2025-05-15 10:00:00 +0700
 categories: [blog]
 ---
 
