@@ -1,0 +1,4 @@
+title: "Trang Cá Nhân của Kien"
+url: "https://kienlaken.life"   # hoặc URL bạn muốn
+baseurl: ""                    # giữ rỗng nếu website nằm ở root
+markdown: kramdown
