@@ -173,8 +173,9 @@ footer {
 }
 /* Định dạng cho logo */
 .logo img {
-  width: 100px;       /* Điều chỉnh kích thước theo ý muốn của bạn */
-  height: auto;       /* Giữ tỉ lệ hình ảnh */
-  display: block;     /* Loại bỏ khoảng cách dưới hình ảnh */
-  margin: 0 auto;     /* Căn giữa logo, nếu cần */
+  width: 100px;
+  height: auto;
+  border: 1px solid red;
+  display: block;
+  margin: 0 auto;
 }
